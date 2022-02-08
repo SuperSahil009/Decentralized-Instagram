@@ -11,6 +11,8 @@ Connect on Ropsten test net.
 # Screenshot
 
 ![image](https://user-images.githubusercontent.com/31141656/153063167-2776738c-b850-46b2-942c-8b61dc07c479.png)
+![image](https://user-images.githubusercontent.com/31141656/153063836-67eac2a8-0db6-42f7-aa02-68ba85fd1861.png)
+
 
 
 Notes on the major process steps- https://docs.google.com/document/d/1-YH2bw3R8sLChhE3ObcpAqN9xAkxdKl5FbcQlVXPjuI/edit
