@@ -42,7 +42,7 @@ class App extends Component {
 
     // Network ID
     const networkId = await web3.eth.net.getId()
-    // returns 5777
+    // returns 5777 on Ganache and "3" (chain ID) on ropsten, when deployed on internet
     const networkData = Decentragram.networks[networkId]
     if(networkData){
       const decentragram = web3.eth.Contract(Decentragram.abi , networkData.address)
