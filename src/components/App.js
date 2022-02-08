@@ -64,7 +64,7 @@ class App extends Component {
       this.setState({loading: false})
     }
     else{
-      window.alert("Decentragram SC not detected, please connect to Ganache 5777")
+      window.alert("Decentragram SC not detected, please connect to Ropsten and have some ETH")
     }
     
   }
