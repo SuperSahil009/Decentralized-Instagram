@@ -4854,6 +4854,87 @@
     "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
   },
   "networks": {
+    "3": {
+      "events": {
+        "0xc1d8dfa99b3f84f95d3f0bc4a768addeb97b83b20aef7f9cb6729e126bafd2f9": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "id",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "string",
+              "name": "hash",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "internalType": "string",
+              "name": "description",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "tipAmount",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "address payable",
+              "name": "author",
+              "type": "address"
+            }
+          ],
+          "name": "ImageCreated",
+          "type": "event"
+        },
+        "0x1be5317bca8d3f70dc1efe89958be71bff36cdca33fc00a6423e25eb2f1d492f": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "id",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "string",
+              "name": "hash",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "internalType": "string",
+              "name": "description",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "tipAmount",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "address payable",
+              "name": "author",
+              "type": "address"
+            }
+          ],
+          "name": "ImageTipped",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0x3Fc4c67DC9B7A0A753E143808d417CB17BF7E097",
+      "transactionHash": "0xa1fccf82e5fe107473d6d988d0a81c6cecd5dada5543c1b4a9ca4d0ac57420bb"
+    },
     "5777": {
       "events": {
         "0xc1d8dfa99b3f84f95d3f0bc4a768addeb97b83b20aef7f9cb6729e126bafd2f9": {
@@ -5099,7 +5180,7 @@
     }
   },
   "schemaVersion": "3.2.3",
-  "updatedAt": "2022-02-08T16:45:41.593Z",
+  "updatedAt": "2022-02-08T18:46:04.861Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
